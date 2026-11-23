@@ -1,10 +1,6 @@
-rok_narozeni_text = input("Zadejte rok narození: ")
-rok_narozeni = int(rok_narozeni_text)  # Převod textu např. "2009" na celé číslo 2009
+obyvatele_cr = 10_900_000   # Stejné jako 10900000, ale mnohem čitelnější
+binarni = 0b1010            # Dvojkově 1010 -> desítkově 10
+osmickove = 0o17            # Osmičkově 17  -> desítkově 15
+sestnactkove = 0xFF         # Šestnáctkově FF -> desítkově 255
 
-# V praxi obojí spojujeme do jednoho řádku:
-cena_za_kus = float(input("Zadejte cenu za kus v Kč: "))
-pocet_kusu = int(input("Zadejte počet kusů: "))
-
-celkem = cena_za_kus * pocet_kusu
-celkem_s_dph = celkem * 1.21  # Přidání DPH 21%
-print("Celková cena v Kč:", celkem)
+print(obyvatele_cr, binarni, osmickove, sestnactkove)  # 10900000 10 15 255
